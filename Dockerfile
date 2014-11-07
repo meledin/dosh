@@ -14,5 +14,7 @@ RUN chmod a+rx /boot.sh
 
 ADD style.css /style.css
 
+ENV HOST tcp://10.0.42.1:2375
+
 EXPOSE 4200
 CMD /boot.sh
