@@ -3,9 +3,7 @@ DoSh is a simple, web-based shell for Docker that only runs the *docker* command
 
 # Installation
 
-1. Clone the repo
-
-`git clone https://github.com/meledin/dosh.git`
+1. Clone the repo `git clone https://github.com/meledin/dosh.git`
 
 2. Enable the docker HTTP/TCP interface (see [docs.docker.com](https://docs.docker.com/articles/basics/#bind-docker-to-another-hostport-or-a-unix-socket) for a guide on that).
 
